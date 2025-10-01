@@ -155,10 +155,13 @@ SIMPLE_JWT = {
     # 'SLIDING_TOKEN_LIFETIME': timedelta(minutes=5),
     # 'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'noreply@notesnest.com'
+
 CORS_ALLOWED_ORIGINS = [
     "https://example.com",
     "https://sub.example.com",
     "http://localhost:8080",
     "http://127.0.0.1:9000",
 ]   
-    
+

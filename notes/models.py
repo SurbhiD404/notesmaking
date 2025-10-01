@@ -12,6 +12,6 @@ class Note(models.Model):
 
     def __str__(self):
         return self.title
-    #display the title when the notes are called
+    #display the title when the notes are 
    
     
